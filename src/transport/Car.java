@@ -11,11 +11,11 @@ public class Car extends Transport {
     private Insurance insurance;
 
     private static class Key {
-
+        String key;
     }
 
     private static class Insurance {
-
+        String insurance;
     }
 
     public Car(String brand,
